@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=M+PLUS+Rounded+1c&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.PostCard {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border: #213547 2px solid;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+/* POST INFO */
+.post-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+.post-info-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.traffic-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3px;
+}
+
+.day {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.count{
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sent {
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    color: #1a1a1a;
+    margin: 0 5px;
+}
+
+.sent.positive{
+    background-color: #00fd8b;
+}
+.sent.negative{
+    background-color: #fd0000;
+}
+
+.status-ico{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+/* TITLE */
+.title {
+    display: flex;
+    font-size: 1.2rem;
+    margin: 0 10px 0 10px;
+    color: #1f88ff;
+}
+
+/*CONTENT*/
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 10px;
+}
+
+.highlight {
+    background-color: #1f88ff;
+    padding: 1px 2px;
+    border-radius: 4px;
+    font-weight: 500;
+    text-align: start;
+}
+
+.higlights-text{
+    margin: 10px 0;
+    text-align: start;
+}
+
+.ab{
+    text-align: start;
+}
+
+.btn{
+    background-color: rgba(153, 153, 153, 0);
+    color: #1f88ff;
+    padding: 5px 0;
+    border-radius: 10px;
+    border: none;
+    transition: background-color 0.2s ease;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    background-color: #213547;
+}
+
+.btn:focus{
+    outline: none;
+
+}
+
+/* KW */
+.kw-container{
+    display: flex;
+}
+.kw {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px;
+    border: #213547 1px solid;
+    border-radius: 15px;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.kw:hover{
+    background-color: #213547;
+}
+
+.kw-item{
+    margin: 5px 10px;
+}
+
+/*SOURCE*/
+.source{
+    display: flex;
+    width: fit-content;
+    margin: 10px;
+    padding: 5px;
+    background-color: #434343;
+    color: #1f88ff;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+.source:hover{
+    background-color: #213547;
+}
+
+/*AUTHOR*/
+.author-info {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 5px;
+}
+.author-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+}
+.author-info p{
+    margin: 0;
+}
+.url{
+    color: #1f88ff;
+}
+.ico{
+    margin: 0 5px;
+}
+
+/*DUPLICATEPOST*/
+.duplicatePostCard {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border: #1f88ff 1px solid;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 10px;
+}
+
+.duplicate-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.duplicates{
+    display: flex;
+    align-items: center;
+}
+
+.duplicates p{
+    margin: 0 5px;
+}
+
+.sort-btn{
+    color: #b5b5b5;
+}
+
+.more-duplicates{
+    margin: 0 10px;
+    border: #213547 2px solid;
+    background: rgba(153, 153, 153, 0);
+    transition: background-color 0.2s ease-in-out;
+}
+
+.more-duplicates:hover{
+    background-color: #213547;
+    border: #213547 2px solid;
+}
